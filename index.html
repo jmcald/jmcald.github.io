@@ -2,7 +2,7 @@
 
 <html lang="en">
 
-<header>
+<head>
 
     <meta charset="UTF-8">
 
@@ -10,51 +10,88 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="png" href="assets/images/topography.png">
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!--<link rel="stylesheet" href="assets/css/style.css">-->
 
     <title>About Me</title>
 
-</header>
+</head>
 
 <body background="assets/images/topography.png">
 
-    <div class="container">
+    <nav class="p-0 navbar navbar-dark bg-light border-bottom">
 
-        <div class="border">
+        <div class="p-0 col-10 container-fluid">
 
-            <div class="bar clearfix">
+            <div class="p-3 mb-0 mx-4 h1 text-light" style="background-color: #4aaaa5">John Caldwell</div>
 
-                <h1 class="name">John Caldwell</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-navbar"style="background-color: #4aaaa5;">
 
-                <a class="nav" href="contact.html">Contact</a>
+                <span class="navbar-toggler-icon"></span>
 
-                <a class="nav" href="portfolio.html">Portfolio</a>
+            </button>
 
-                <a class="nav" href="index.html">About</a>
+            <div class="collapse navbar-collapse" id="collapsible-navbar">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a class="p-3 text-secondary" href="index.html">About</a></li>
+                    
+                    <li><a class="p-3 text-secondary" href="portfolio.html">Portfolio</a></li>
+                    
+                    <li><a class="p-3 text-secondary" href="contact.html">Contact</a></li>
+
+                </ul>
+            
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="row mx-1 my-4">
+
+        <div class="col-md-10 offset-md-1 col-lg-8 container-fluid bg-light">
+
+            <div class="row py-2 border-bottom m-3">
+
+                <h1 class="py-3 m-2 " style="color: #4aaaa5;">About Me</h1>
+
+            </div>
+
+            <div class="row m-3">
+
+                <div class style="width: 200px; height: 280px;">
+                    
+                    <img class="image-fluid" style="max-width: 100%" src="assets/images/Profile.jpg" alt="Profile">
+
+                </div>
+
+                <p>I am 27 years old. I was born and raised in Kansas City. I went to Kansas State University for four years and am still looking to finish my degree. I am also looking to add web-development to my portfolio of skills.</p>
+                
+                <p>A lifelong curiosity has brought me to web development. Many paths I have taken in my education have lead me to what seemed like a brick wall: coding. From speaking with statisticians about genome projects they were working on online, to working with databases while making maps, even just investigating how one would go about making an app (I know, everyone thinks they have the next big app idea) web development seems like the path forward, for me.</p>
+
+                <p>Currently, there is nothing to show in terms of programming skills save the website you  are using now, but that will all soon change.</p>
 
             </div>
 
         </div>
 
-        <div class="content clearfix">
-
-            <h1>About Me</h1>
-
-            <img src="assets/images/Profile.jpg" id="profile">
-
-            <p>I am 27 years old. I was born and raised in Kansas City. I went to Kansas State University for four years and am still looking to finish my degree. I am also looking to add web-development to my portfolio of skills.</p>
-
-            <p>A lifelong curiosity has brought me to web development. Many paths I have taken in my education have lead me to what seemed like a brick wall: coding. From speaking with statisticians about genome projects they were working on online, to working with databases while making maps, even just investigating how one would go about making an app (I know, everyone thinks they have the next big app idea) web development seems like the path forward, for me.</p>
-
-            <p>Currently, there is nothing to show in terms of programming skills save the website you  are using now, but that will all soon change.</p>
-
-        </div>
 
     </div>
 
-    <footer/>
+    <nav class="navbar bg-dark navbar-fixed-bottom">
+
+        <div class="container-fluid">
+    
+        <p class="text-light mx-auto">Copyright</p>
+    
+        </div>
+            
+    </nav>
 
 </body>
 

@@ -10,7 +10,9 @@
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+    <!--<link rel="stylesheet" href="assets/css/style.css">-->
 
     <title>Contact</title>
 
@@ -18,51 +20,93 @@
 
 <body background="assets/images/topography.png">
 
-    <div class="container">
+    <nav class="p-0 navbar navbar-dark bg-light border-bottom">
 
-        <div class="border">
+            <div class="p-0 col-10 container-fluid">
+    
+                <div class="p-3 mb-0 mx-4 h1 text-light" style="background-color: #4aaaa5">John Caldwell</div>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-navbar"style="background-color: #4aaaa5;">
+    
+                    <span class="navbar-toggler-icon"></span>
+    
+                </button>
+    
+                <div class="collapse navbar-collapse" id="collapsible-navbar">
+    
+                    <ul class="nav navbar-nav navbar-right">
+    
+                        <li><a class="p-3 text-secondary" href="index.html">About</a></li>
+                        
+                        <li><a class="p-3 text-secondary" href="portfolio.html">Portfolio</a></li>
+                        
+                        <li><a class="p-3 text-secondary" href="contact.html">Contact</a></li>
+    
+                    </ul>
+                
+                </div>
+    
+            </div>
+    
+        </nav>
+    
+    <div class="row mx-1 my-4">
 
-            <div class="bar clearfix">
+        <div class="col-md-10 offset-md-1 col-lg-8 container-fluid bg-light">
 
-                <h1 class="name">John Caldwell</h1>
+            <div class="row py-2 border-bottom m-3">
 
-                <a class="nav" href="contact.html">Contact</a>
+                <h1 class="py-3 m-2" style="color: #4aaaa5;">Contact</h1>
 
-                <a class="nav" href="portfolio.html">Portfolio</a>
+            </div>
 
-                <a class="nav" href="index.html">About</a>
+            <div class="row m-3">
+
+                    <form class="w-100">
+                        
+                        <div class="form-group">
+                            
+                            <label>Name</label>
+
+                            <input type="text" class="form-control" placeholder="John Smith">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label>Email</label>
+
+                            <input type="email" class="form-control" placeholder="example@gmail.com">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label>Message</label>
+
+                            <textarea type="text" class="form-control" rows="8"></textarea>
+
+                        </div>
+
+                        <button type="submit" class="btn text-light" style="background-color: #4aaaa5; ">Submit</button>
+
+                    </form>
 
             </div>
 
         </div>
 
-        <div class="content clearfix">
-
-            <h1>Contact</h1>
-
-            <form>
-
-                Name<br>
-
-                <input type="text" name="name" placeholder="John Smith"><br>
-
-                Email<br>
-
-                <input type="text" name="email" placeholder="example@gmail.com"><br>
-
-                Message<br>
-
-                <input type="text" name="message" id="message"><br>
-
-                <a href="mailto:jmcald0@gmail.com" id="submit">Submit</a>
-                
-            </form>
-
-        </div>
-
     </div>
 
-    <footer/>
+    <nav class="navbar bg-dark navbar-fixed-bottom">
+
+        <div class="container-fluid">
+    
+        <p class="text-light mx-auto">Copyright</p>
+    
+        </div>
+            
+    </nav>
 
 </body>
 
