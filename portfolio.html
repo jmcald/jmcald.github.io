@@ -3,52 +3,52 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=1.0, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!--<link rel="stylesheet" href="assets/css/style.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Portfolio</title>
-
 </head>
 
-<body background="assets/images/topography.png">
+<body>
 
     <nav class="p-0 navbar navbar-dark bg-light border-bottom">
 
-            <div class="p-0 col-10 container-fluid">
-    
-                <div class="p-3 mb-0 mx-4 h1 text-light" style="background-color: #4aaaa5">John Caldwell</div>
-    
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-navbar"style="background-color: #4aaaa5;">
-    
-                    <span class="navbar-toggler-icon"></span>
-    
-                </button>
-    
-                <div class="collapse navbar-collapse" id="collapsible-navbar">
-    
-                    <ul class="nav navbar-nav navbar-right">
-    
-                        <li><a class="p-3 text-secondary" href="index.html">About</a></li>
-                        
-                        <li><a class="p-3 text-secondary" href="portfolio.html">Portfolio</a></li>
-                        
-                        <li><a class="p-3 text-secondary" href="contact.html">Contact</a></li>
-    
-                    </ul>
-                
-                </div>
-    
+        <div class="p-0 col-10 container-fluid">    
+            <div class="p-3 my-2 mx-4 h1 text-light border rounded common-bgcolor" >
+                John Caldwell
             </div>
+
+
+            <div>
+                <div class="collapse navbar-collapse" id="collapsible-navbar">
+                    
+                    <ul class="p-0 nav">
+                        <li><a class="p-3 text-secondary d-inline-flex" href="index.html">About</a></li>
+                
+                        <li class ="p-3 d-inline-flex"> | </li>
+                
+                        <li><a class="p-3 text-secondary d-inline-flex" href="portfolio.html">Portfolio</a></li>
+                
+                        <li class ="p-3 d-inline-flex"> | </li> 
+                
+                        <li><a class="p-3 text-secondary d-inline-flex" href="contact.html">Contact</a></li>        
+                    </ul>
+                                        
+                </div>
+            </div>
+
+            <button class="navbar-toggler float-right common-bgcolor" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>              
+
+        </div>
     
-        </nav>
+    </nav>
     
     <div class="row mx-1 my-4">
 
@@ -56,85 +56,88 @@
 
             <div class="row py-2 border-bottom m-3">
 
-                <h1 class="py-3 m-2" style="color: #4aaaa5;">Portfolio</h1>
+                <h1 class="py-3 m-2" >Portfolio</h1>
 
             </div>
 
             <div class="row py-2 m-3">
 
-                <a href="https://jmcald.github.io/unit-4-game/" class="col-sm-12 col-md-5 ">
+                <div class="col-sm-12 col-md-5 ">
+
+                    <div class="dropdown show row">
+                            <div class="btn dropdown-toggle common-bgcolor text-light w-75 mx-auto" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Games
+                            </div>
+                                  
+                            <div class="dropdown-menu w-75" aria-labelledby="dropdownMenuLink">
+                                
+                                <a class="dropdown-item align-content-center" href="https://jmcald.github.io/unit-4-game/">Crystal Game</a>
+                            </div>
+                    </div>
 
                     <div class="row mx-0 embed-responsive embed-responsive-4by3">
 
-                        <img src="assets/images/games.png" alt="Games" class=" embed-responsive-item">
+                        <img src="assets/images/crystalgame.PNG" alt="Games" class="embed-responsive-item">
 
                     </div>
 
-                    <div class="row">
+                </div>
 
-                        <h4 class="py-1 px-5 mx-auto text-light" style="background-color: #4aaaa5">Games</h4>
-
+                <div class="col-sm-12 col-md-5 offset-md-2">
+                    
+                    <div class="dropdown show row">
+                            <div class="btn dropdown-toggle common-bgcolor text-light w-75 mx-auto" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Projects
+                            </div>
+                                  
+                            <div class="dropdown-menu w-75" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item align-content-center" href="https://rjfreeman77.github.io/project1/">Animal Finder: Trip Planner</a>
+                            </div>
                     </div>
-
-                </a>
-
-                <a href="https://rjfreeman77.github.io/project1/" class="col-sm-12 col-md-5 offset-md-2">
 
                     <div class="row mx-0 embed-responsive embed-responsive-4by3">
 
-                        <img src="assets/images/projects.jpg" alt="Projects" class=" embed-responsive-item">
+                        <img src="assets/images/americansafari.PNG" alt="Projects" class=" embed-responsive-item">
 
                     </div>
 
-                    <div class="row">
-
-                        <h4 class="py-1 px-5 mx-auto text-light" style="background-color: #4aaaa5">Projects</h4>
-
-                    </div>
-
-                </a>
+                </div>
 
             </div>
 
             <div class="row py-2 m-3">
 
-                <a href="https://jmcald.github.io/Firebase-trains/" class="col-sm-12 col-md-5 ">
+                <div class="col-sm-12 col-md-5 ">
+                  
+                    <div class="dropdown show row">
+                            <div class="btn dropdown-toggle common-bgcolor text-light w-75 mx-auto" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Tools
+                            </div>
+                                  
+                            <div class="dropdown-menu w-75" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item align-content-center" href="https://jmcald.github.io/Firebase-trains/" >Train Schedule Planner: For Kids!</a>
+                            </div>
+                    </div>
 
                     <div class="row mx-0 embed-responsive embed-responsive-4by3">
 
-                        <img src="assets/images/widgets.jpg" alt="Widgets" class=" embed-responsive-item">
+                        <img src="assets/images/trainscheduler.PNG" alt="Tools" class=" embed-responsive-item">
 
                     </div>
 
-                    <div class="row">
+                </div>
 
-                        <h4 class="py-1 px-5 mx-auto text-light" style="background-color: #4aaaa5">Widgets</h4>
-
+                <div class="col-sm-12 col-md-5 offset-md-2">
+                 
+                    <div class="dropdown show row">
+                            <div class="btn dropdown-toggle common-bgcolor text-light w-75 mx-auto" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Apps
+                            </div>
+                                  
+                            <div class="dropdown-menu w-75" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item align-content-center" href="https://jmcald.github.io/GIPHYapp/" >It's Always Sunny in GIPHY</a>
+                            </div>
                     </div>
-
-                </a>
-
-                <a href="#"class="col-sm-12 col-md-5 offset-md-2">
-
-                    <div class="row mx-0 embed-responsive embed-responsive-4by3">
-
-                        <img src="assets/images/trivia.jpg" alt="Trivia" class=" embed-responsive-item">
-
-                    </div>
-
-                    <div class="row">
-
-                        <h4 class="py-1 px-5 mx-auto text-light" style="background-color: #4aaaa5">Trivia</h4>
-
-                    </div>
-
-                </a>
-
-            </div>
-
-            <div class="row py-2 m-3">
-
-                <a href="https://jmcald.github.io/GIPHYapp/" class="col-sm-12 col-md-5">
 
                     <div class="row mx-0 embed-responsive embed-responsive-4by3">
 
@@ -142,13 +145,7 @@
 
                     </div>
 
-                    <div class="row">
-
-                        <h4 class="py-1 px-5 mx-auto text-light" style="background-color: #4aaaa5">Apps</h4>
-
-                    </div>
-
-                </a>
+                </div>
 
             </div>
 
@@ -160,12 +157,18 @@
 
         <div class="container-fluid">
     
-        <p class="text-light mx-auto">Copyright</p>
+        <p class="text-light mx-auto">Copyright
+            <i class="far fa-copyright"></i>
+        </p>
     
         </div>
             
     </nav>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/javascript/logic.js"></script>
 </body>
 
 </html>

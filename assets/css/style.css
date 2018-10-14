@@ -1,38 +1,4 @@
-body {
-
-    margin: 0;
-
-}
-
-.container {
-
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
-    color: #777777;
-
-    min-height: calc(100vh - 70px)
-
-}
-
-.border {
-
-    background-color: #ffffff;
-
-    border-bottom: #cccccc 2px solid;
-
-}
-
-.bar {
-
-    background-color: #ffffff;
-
-    width: 960px;
-
-    margin: 0 auto;
-
-}
-
-.clearfix:after {
+/* .clearfix:after {
 
     content: "";
 
@@ -40,166 +6,33 @@ body {
 
     clear: both;
 
+} */
+
+body {
+    background-image: url("../images/topography.png");
 }
 
-.content {
-
-    background-color: #ffffff;
-
-    border: #dddddd 2px solid;
-
-    clear: both;
-
-    width: 960px;
-
-    margin: 20px auto;
-
-    line-height: 2rem;
-
-    position: relative;
-
+.common-bgcolor {
+    background-color: #4aaaa5
 }
 
 h1 {
-
     font-family: 'Georgia', Times, Times New Roman, serif;
-
     color: #4aaaa5;
-
-    border-bottom: #dddddd 3px solid;
-
     margin: 0 30px 0 30px;
-
     padding: 30px 0;
-
     position: relative;
-
-}
-
-.name {
-
-    background-color: #4aaaa5;
-
-    color: #ffffff;
-
-    padding: 20px;
-
-    margin: 0;
-
-    float: left;
-
-    border: none;
-
 }
 
 img {
-
     float: left;
-
     padding: 20px;
-
-    width: 305px;
-
-    height:280px;
-
 }
 
-#profile {
-
-    height: 250px;
-
-    width: 230px;
-
-    padding: 30px;
-
+ul {
+    list-style: none;
 }
 
-p {
-
-    margin: 20px 30px;
-
-}
-
-.portfolio-container{
-
-    position: relative;
-
-    float: left;
-
-}
-
-.text-block {
-
-    position: absolute;
-
-    padding: 0 36%;
-
-    margin: 20px;
-
-    background-color: #4aaaa5;
-
-    color: #ffffff;
-
-    bottom: 5px;
-
-}
-
-form {
-
-    margin: 30px;
-
-    color: #777777
-
-}
-
-#submit {
-
-    float: left;
-
-    padding: 0 20px;
-
-    background-color: #4aaaa5;
-
-    color: #ffffff;
-
-    margin: 20px 0 30px 0;
-
-    display: auto;
-
-}
-
-.nav {
-
-    padding: 29px;
-
-    float: right;
-
-    margin: 0;
-
-}
-
-footer {
-
-    background-color: #666666;
-
-    height: 50px;
-
-    border-top: #4aaaa5 5px solid;
-
-}
-
-input {
-
-    width: 100%;
-
-    display: inline-block;
-
-    padding: 4px;
-
-}
-
-#message {
-
-    height: 150px;
-
+.dropdown-toggle::after {
+    display:none;
 }
