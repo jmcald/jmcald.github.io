@@ -1,113 +1,99 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-
     <title>Contact</title>
 </head>
 
 <body>
 
-    <nav class="p-0 navbar navbar-dark bg-light border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand offset-1 px-4" href="index.html">John Caldwell</a>
 
-        <div class="p-0 col-10 container-fluid">    
-            <div class="p-3 my-2 mx-4 h1 text-light border rounded common-bgcolor" >
-                John Caldwell
-            </div>
-
-
-            <div>
-                <div class="collapse navbar-collapse" id="collapsible-navbar">
-                    
-                    <ul class="p-0 nav">
-                        <li><a class="p-3 text-secondary d-inline-flex" href="index.html">About</a></li>
-                
-                        <li class ="p-3 d-inline-flex"> | </li>
-                
-                        <li><a class="p-3 text-secondary d-inline-flex" href="portfolio.html">Portfolio</a></li>
-                
-                        <li class ="p-3 d-inline-flex"> | </li> 
-                
-                        <li><a class="p-3 text-secondary d-inline-flex" href="contact.html">Contact</a></li>        
-                    </ul>
-                                        
-                </div>
-            </div>
-
-            <button class="navbar-toggler float-right common-bgcolor" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>              
-
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active d-inline-flex">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <span class="p-2 text-light">|</span>
+            </li>
+            <li class="nav-item d-inline-flex">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <span class="p-2 text-light">|</span>
+            </li>
+            <li class="nav-item d-inline-flex">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-    
     </nav>
     
     <div class="row mx-1 my-4">
-
-        <div class="col-md-10 offset-md-1 col-lg-8 container-fluid bg-light">
-
+        <div class="col-md-10 offset-md-1 col-lg-8 container-fluid texture-bg">
             <div class="row py-2 border-bottom m-3">
-
                 <h1 class="py-3 m-2">Contact</h1>
-
             </div>
-
             <div class="row m-3">
-
-                    <form class="m-4 w-100">
-                        
-                        <div class="form-group">
-                            
-                            <label>Name</label>
-
-                            <input type="text" class="form-control" placeholder="John Smith">
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <label>Email</label>
-
-                            <input type="email" class="form-control" placeholder="example@gmail.com">
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <label>Message</label>
-
-                            <textarea type="text" class="form-control" rows="8"></textarea>
-
-                        </div>
-
-                        <button type="submit" class="btn text-light common-bgcolor" id="submit">Submit</button>
-
-                    </form>
-
+                <form class="m-4 w-100">    
+                    <div class="form-group">    
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea type="text" class="form-control" rows="8"></textarea>
+                    </div>
+                    <button type="submit" class="btn text-light common-bgcolor" id="submit">Submit</button>
+                </form>
             </div>
-
         </div>
-
+        <div class="col-md-10 col-lg-2 mx-4 container-fluid bg-light card ">
+            <div class="row card-header font-weight-bold bg-white">
+                <h1 class="column offset-2">
+                    Links
+                </h1>
+            </div>
+            <div class = "row card-body">
+                <p class="p-4 w-100 column h4">Please send me your contact information in this form or through the links below.</p>
+                <ul class="p-0 w-100 column ">
+                    <li>
+                        <a href="https://github.com/jmcald" class="common-bgcolor text-light font-weight-bold rounded btn row w-75 m-4">
+                            <i class="fab fa-github"></i>GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.linkedin.com/in/john-caldwell-95620a169" class="common-bgcolor text-light font-weight-bold rounded btn row w-75 m-4">
+                            <i class="fab fa-linkedin"></i>LinkedIn
+                        </a>
+                    </li>
+                    <li class ="font-weight-bold rounded btn row w-75 mx-4 my-2">My Email: 
+                    </li>
+                    <li>
+                        <a href="mailto:jmcald0@gmail.com>" class ="font-weight-bold rounded btn row w-75 mx-4 my-2">jmcald0@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <nav class="navbar bg-dark navbar-fixed-bottom">
-
         <div class="container-fluid">
-    
         <p class="text-light mx-auto">Copyright
             <i class="far fa-copyright"></i>
         </p>
-    
-        </div>
-            
+        </div>    
     </nav>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -116,5 +102,4 @@
     <script src="assets/javascript/logic.js"></script>
 
 </body>
-
 </html>

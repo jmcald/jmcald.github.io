@@ -1,128 +1,93 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-
     <title>About Me</title>
 </head>
 
 <body>
 
-    <nav class="p-0 navbar navbar-dark bg-light border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand offset-1 px-4" href="index.html">John Caldwell</a>
 
-        <div class="p-0 col-10 container-fluid">    
-            <div class="p-3 my-2 mx-4 h1 text-light border rounded common-bgcolor" >
-                John Caldwell
-            </div>
-
-
-            <div>
-                <div class="collapse navbar-collapse" id="collapsible-navbar">
-                    
-                    <ul class="p-0 nav">
-                        <li><a class="p-3 text-secondary d-inline-flex" href="index.html">About</a></li>
-                
-                        <li class ="p-3 d-inline-flex"> | </li>
-                
-                        <li><a class="p-3 text-secondary d-inline-flex" href="portfolio.html">Portfolio</a></li>
-                
-                        <li class ="p-3 d-inline-flex"> | </li> 
-                
-                        <li><a class="p-3 text-secondary d-inline-flex" href="contact.html">Contact</a></li>        
-                    </ul>
-                                        
-                </div>
-            </div>
-
-            <button class="navbar-toggler float-right common-bgcolor" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>              
-
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active d-inline-flex">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <span class="p-2 text-light">|</span>
+            </li>
+            <li class="nav-item d-inline-flex">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <span class="p-2 text-light">|</span>
+            </li>
+            <li class="nav-item d-inline-flex">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-    
     </nav>
 
     <div class="row mx-1 my-4">
-
-        <div class="col-md-10 offset-md-1 col-lg-8 container-fluid bg-light">
-
+        <div class="col-md-10 offset-md-1 col-lg-8 container-fluid texture-bg">
             <div class="row py-2 border-bottom m-3">
-
-                <h1 class="py-3 m-2 ">About Me</h1>
-
+                <h1 class="py-3 m-2">About Me</h1>
             </div>
 
-            <div class="row m-3">
-                    
-                <img class="image-fluid h-25 col-lg-4 col-md-5 col-sm-6" src="assets/images/Profile.jpg" alt="Profile">
+            <div class="row m-3">     
+                <img class="image-fluid h-25 p-4 col-lg-4 col-md-6 col-sm-8" id="profile" src="assets/images/Profile.jpg" alt="Profile">
+                <div class="col-lg-7 col-md-10 card mx-4">
+                    <p class ="p-4">I am 27 years old. I was born and raised in Kansas City. I went to Kansas State University for four years and am still looking to finish my degree. I am currently finishing a certificate in full-stack web development.
+                    <br><br>              
+                    A lifelong curiosity has brought me to web development. Many paths I have taken in my education have lead me to what seemed like a brick wall: coding. From speaking with statisticians about genome projects they were working on online, to working with databases while making maps, even just investigating how one would go about making an app (I know, everyone thinks they have the next big app idea) web development seems like the path forward, for me.
+                    <br><br>
+                    Currently, there are a several projects that I have created linked here on the portfolio section of my page. All of the code for the linked projects is accessible onn my GitHub page. You may contact me by sending me your information on my contact page.</p>
+                </div>    
+            </div>
 
-                <div class="col-lg-4 offset-lg-4 col-md-5 offset-md-2 col-sm-6 my-3 card">
-                    <div class="row card-header font-weight-bold">
-                        <div class="column offset-2">
-                            Links
-                        </div>
-                    </div>
-                    <div class = "row card-body">
-                        <ul class="p-0 w-100 column ">
-                            <li>
-                                <a href="https://github.com/jmcald" class="common-bgcolor text-light font-weight-bold rounded btn row w-75 m-4">
-                                    <i class="fab fa-github"></i>
-                                    GitHub
-                                </a>
-                            </li>
+            
+            <div class="row card card-header font-weight-bold bg-white m-3">
+                <h3 class="offset-1">
+                    Key Skills
+                </h3>
+            </div>
 
-                            <li>
-                                <a href="www.linkedin.com/in/john-caldwell-95620a169" class="common-bgcolor text-light font-weight-bold rounded btn row w-75 m-4">
-                                    <i class="fab fa-linkedin"></i>
-                                    LinkedIn
-                                </a>
-                            </li>
-                            <li class ="font-weight-bold rounded btn row w-75 mx-4 my-2">
-                                My Email: 
-                            </li>
-                            <li>
-                                <a href="mailto:jmcald0@gmail.com>" class ="font-weight-bold rounded btn row w-75 mx-4 my-2">jmcald0@gmail.com</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class = "row card card-body m-3">
+                <div class="p-0 col-lg-6 col-md-6 col-sm-10">
+                    <ul>
+                        <li class="p-4">
+                            Languages: HTML, CSS, JavaScript
+                        </li>
+                        <li class="p-4">
+                            Frameworks: Node.js, Express, Vue.js
+                        </li>
+                        <li class="p-4">
+                            Database Tools: MySQL, Mongo, Sequelize
+                        </li>
+                        <li class="p-4">
+                            Other: Git/GitHub, Heroku, JQuery, Bootstrap
+                        </li>
+                    </ul>
                 </div>
+            </div>         
             </div>
-
-            <div class="row m-3">
-
-                <p class ="p-4">I am 27 years old. I was born and raised in Kansas City. I went to Kansas State University for four years and am still looking to finish my degree. I am also looking to add web-development to my portfolio of skills.
-
-                <br><br>              
-                A lifelong curiosity has brought me to web development. Many paths I have taken in my education have lead me to what seemed like a brick wall: coding. From speaking with statisticians about genome projects they were working on online, to working with databases while making maps, even just investigating how one would go about making an app (I know, everyone thinks they have the next big app idea) web development seems like the path forward, for me.
-
-                <br><br>
-                Currently, there are a few projects that I have created linked here on the portfolio section of my page. All of the code for the linked projects is accessible onn my GitHub page</p>
-
-            </div>
-
         </div>
-
-
     </div>
 
     <nav class="navbar bg-dark navbar-fixed-bottom">
-
         <div class="container-fluid">
-    
         <p class="text-light mx-auto">Copyright
             <i class="far fa-copyright"></i>
         </p>
-    
-        </div>
-            
+        </div>     
     </nav>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -130,5 +95,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="assets/javascript/logic.js"></script>
 </body>
-
 </html>

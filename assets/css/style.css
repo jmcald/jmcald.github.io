@@ -9,16 +9,34 @@
 } */
 
 body {
+    background: black;
+}
+
+.texture-bg {
     background-image: url("../images/topography.png");
 }
 
+#profile {
+    border: 1px;
+    border-style: outset;
+    background-image: radial-gradient(black, #ffffff, white);
+}
+
 .common-bgcolor {
-    background-color: #4aaaa5
+    background-color: #773355;
 }
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    color: #773355;
+    margin: 0 30px 0 30px;
+    padding: 30px 0;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #773355;
     margin: 0 30px 0 30px;
     padding: 30px 0;
     position: relative;
